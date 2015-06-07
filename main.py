@@ -1,4 +1,3 @@
-import week
+import week2
 
-def main():
-    print("Hello world!")
+week2.question4_solve()
