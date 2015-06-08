@@ -1,3 +1,4 @@
 import week2
+import week3
 
-week2.programming_assignment()
+week3.programming_assignment()
