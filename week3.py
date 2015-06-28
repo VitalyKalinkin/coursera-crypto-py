@@ -3,10 +3,10 @@ import binascii
 
 def programming_assignment():
     test_file_name = '/Users/lattyf/Downloads/6 - 2 - Generic birthday attack (16 min).mp4'
-    print("Resulting hash of of file '%s': '%s'" % (test_file_name, hash_file(test_file_name)))
+    print("Resulting hash of of file '%s': \t'%s'" % (test_file_name, hash_file(test_file_name)))
     
     task_file_name = '/Users/lattyf/Downloads/6 - 1 - Introduction (11 min).mp4'
-    print("Resulting hash of of file '%s': '%s'" % (task_file_name, hash_file(task_file_name)))
+    print("Resulting hash of of file '%s': \t\t\t\t'%s'" % (task_file_name, hash_file(task_file_name)))
 
 def hash_file(filename):
     fh = open(filename, "rb")
